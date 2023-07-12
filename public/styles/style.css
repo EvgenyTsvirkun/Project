@@ -1,0 +1,30 @@
+body {
+  width: 100%;
+  height: 100vh;
+}
+.greetings {
+  display: flex;
+  margin-top: 200px;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 8px;
+}
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro-text{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mb-3 {
+  width: 300px;
+}
+.mb-3:focus {
+  margin-bottom: 7px;
+  border: 2px solid blue;
+  outline: none;
+}
